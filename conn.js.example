@@ -1,0 +1,7 @@
+exports.dbConn = {
+	connectionLimit: 10,
+	host: 'localhost',
+	user: '',
+	password: '',
+	database: ''
+}
