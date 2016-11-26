@@ -1,0 +1,24 @@
+<html>
+
+<body>
+
+	<div id="signDiv">
+		Username: <input id="signDiv-username" type="text"></input><br>
+		Password: <input id="signDiv-password" type="password"></input><br>
+		<button id="signDiv-signIn">Sign In</button>
+		<button id="signDiv-signUp">Sign Up</button>
+	</div>
+	<div id="gameDiv" style="display:none;">
+	    <canvas id="ctx" width="500" height="500" style="border:1px solid black;"></canvas>
+	    <div id="chat-text" style="width:500px;height: 100px;overflow-y: scroll">
+	    </div>
+	    <form id="chat-form">
+	        <input id="chat-input" type="text" style="width:500px"></input>
+	    </form>
+	</div>	
+    <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
